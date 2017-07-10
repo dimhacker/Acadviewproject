@@ -127,8 +127,7 @@ def read_message():
 
                 else:
                     print  "Your friend is talking too much,we are removing him from your friend list."
-                    friends.remove(friends[sender-1])
-		    	
+                    friends.remove(sender)
 
 
 def add_status():
